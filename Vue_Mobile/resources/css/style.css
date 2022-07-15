@@ -1,0 +1,292 @@
+html {
+  font-size: 14px;
+  font-family: 'Oxygen', sans-serif;
+  background-color: #f9f9f9;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+body {
+  padding-bottom: 4rem;
+  background-image: linear-gradient(to left, #f0f6ff, #dddbf4);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 2rem;
+  letter-spacing: 0.6px;
+}
+
+em {
+  font-weight: bold;
+}
+
+h1 {
+  padding: .75rem;
+  background-color: #5919d9;
+  text-align: center;
+  font-weight: 900;
+  font-stretch: condensed;
+  line-height: 0.87;
+  letter-spacing: 1.1px;
+  color: #ffffff;
+  flex: 1;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.43rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1.86rem 20%;
+}
+
+input,
+textarea,
+select {
+  padding: .71rem;
+  margin-right: 1.21rem;
+  background-color: #ffffff;
+  border: solid 1px #979797;
+}
+
+textarea {
+  height: 5.2rem;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-border-radius: 0px;
+  background-image: url("https://content.codecademy.com/courses/vue-instances/triangle.svg");
+  background-position: 97% 50%;
+  background-repeat: no-repeat;
+  background-size: 14px;
+}
+
+label {
+  margin-bottom: .71rem;
+  font-weight: bold;
+}
+
+legend {
+  margin-bottom: .71rem;;
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+  padding: .85rem 2.29rem;
+  border-radius: 4px;
+  margin-right: 1.36rem;
+  background-color: #4c7ef3;
+  font-size: 1.14rem;
+  color: #ffffff;
+  transition: .25s;
+}
+
+button:hover {
+  background-color: #1e5df1;
+}
+
+button.reset {
+  background-color: #e85b49;
+}
+
+button.reset:hover {
+  background-color: #ea2e16;
+}
+
+.logo {
+  padding-right: 1.28rem;
+}
+
+.time {
+  padding-right: 4.29rem;
+  font-size: 1.28rem;
+  font-weight: bold;
+}
+
+.invalid {
+  border: 1px solid #fa4359;
+}
+
+.form-row {
+  display: flex;
+  margin-bottom: 2.14rem;
+}
+
+.form-row.vertical {
+  flex-direction: column;
+}
+
+.form-row > * {
+  flex: 1;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox > * {
+  margin-bottom: .71rem;
+}
+
+.checkbox input {
+  font-size: 1.29rem;
+}
+
+.checkbox label {
+  font-weight: normal;
+}
+
+.agreement.form-row {
+  margin-bottom: 0;
+}
+
+.agreement fieldset > * {
+  margin-bottom: .71rem;
+}
+
+.signature {
+  font-family: 'Petit Formal Script', cursive;
+}
+
+#developer-pane {
+  border: 1px solid #979797;
+  margin: 2rem 20%;
+  background-color: #d1fdda;
+}
+
+#developer-pane > * {
+  padding: 1rem;
+  font-weight: 1.2rem;
+}
+
+#developer-pane h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#developer-pane em {
+  font-weight: bold;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.user {
+  padding: 1.5rem;
+  font-size: .875rem;
+}
+
+.user-information {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.user-information .image-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-right: 2rem;
+}
+
+.user-information h3 {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.tweet {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  margin-bottom: 2px;
+  font-size: .875rem;
+}
+
+.tweet h3 {
+  font-weight: bold;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  font-size: .875rem;
+}
+
+.settings h2 {
+  padding-bottom: 1.1875rem;
+  font-weight: bold;
+  line-height: 1.64;
+}
+
+.settings label {
+  font-weight: bold;
+  font-size: .75rem;
+}
+
+.settings input,
+.settings textarea,
+.settings button {
+  padding: 1rem;
+  border: solid 1px #7098f5;
+}
+
+.settings input::placeholder,
+.settings textarea::placeholder {
+  color: #9b9b9b;
+}
+
+.settings input,
+.settings textarea {
+  margin-bottom: .625rem;
+}
+
+.new-tweet {
+  display: flex;
+}
+
+.new-tweet input {
+  flex-grow: 1;
+  margin-right: 2rem;
+  margin-bottom: 0;
+}
+
+.new-tweet button {
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: #5919d973;
+  color: #ffffff;
+  transition: .25s;
+}
+
+.new-tweet button:hover {
+  background-color: #5919d9;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 620px) {
+}
+
+@media only screen and (max-width: 319px) {
+  html {
+    display: none;
+  }
+}
